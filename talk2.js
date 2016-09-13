@@ -49,14 +49,15 @@ while (i > 0) {
   value ++;
 }
 console.log('Step 10:', value);
-//11. 
+//11.
+function convert(val) {
 val = val.toString();
 
   if (val.length > 1) {
     val = val.slice(1);
     value = val;
-    return val;
   }
+return val;
 
 }
 //12.
